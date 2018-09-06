@@ -25,6 +25,7 @@ for i in range(0, 15):
         plt.plot(dataOne, priceOne, 'g', lw=8)
 
 dateNormal = np.zeros([15, 1])
+
 priceNormal = np.zeros([15, 1])
 for i in range(0, 15):
     dateNormal[i, 0] = i / 14.0
